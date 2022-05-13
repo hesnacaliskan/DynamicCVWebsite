@@ -1,2 +1,2 @@
 # CV-Sitesi
-Admin Panelli dinamik bir CV sitesidir.
+Asp.NET Web Forms kullanılarak geliştirilmiş Admin panelli dinamik bir CV sitesidir.
