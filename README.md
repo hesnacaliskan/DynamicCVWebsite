@@ -1,1 +1,1 @@
-Admin panelli dinamik bir CV sitesidier
+Admin panelli dinamik bir CV sitesidir.
