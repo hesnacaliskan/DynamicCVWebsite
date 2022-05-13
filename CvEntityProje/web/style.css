@@ -1,0 +1,159 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: #333333;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    height: auto;
+    width: 100%;
+    margin: auto;
+    padding-right: 40px;
+}
+.container{
+    width: 100%;
+    margin: 80px auto 80px auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+nav {
+    width: 350px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    overflow: scroll;
+    background-color: #232678;
+}
+nav::-webkit-scrollbar {
+    display: none;
+  }
+nav img{
+    height: 250px;
+    width: 250px;
+    margin-top: 10px;
+}
+nav h1{
+    font-size: 30px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    color: whitesmoke;
+}
+nav h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+nav a{
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+    transition: 0.8s;
+}
+
+nav a:hover{
+    background-color: whitesmoke;
+    color: #3A41E4;
+}
+
+nav a:active{
+    background-color: rgb(200, 199, 199);
+    color: #3e44f3;
+}
+
+nav a::selection{
+    background-color: rgb(200, 199, 199);
+    color: #3e44f3;
+}
+
+#social-media{
+    padding-bottom: 16px;
+}
+
+#social-media a{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    padding: 0px 20px;
+}
+
+#social-media a i{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+#social-media a:hover{
+    background-color: #232678;
+}
+
+#content{
+    margin-left: 390px;
+}
+section{
+    background-color: white;
+    height: auto;
+    padding: 0px 120px;
+    border-bottom: 2px solid rgb(232, 231, 231);
+}
+
+h3{
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #8d90e4;
+}
+dl{
+    font-weight: bold;
+}
+dd{
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+li{
+    margin-bottom: 10px;
+}
+section i{
+    font-size: 25px;
+    margin-right: 15px;
+}
+#language dt{
+    margin-bottom: 40px;
+}
+input{
+    height: 40px;
+    padding: 10px;
+    margin-right: 15px;
+    width: 250px;
+}
+@media screen and (max-width: 700px) {
+    nav {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    nav a {float: left;}
+    #content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+    nav a {
+      text-align: center;
+      float: none;
+    }
+}
